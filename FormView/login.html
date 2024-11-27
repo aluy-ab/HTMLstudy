@@ -11,13 +11,13 @@
       <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
       <hr>
       <form>
-				<h1>Menu Login</h1>
+	<h1>Menu Login</h1>
         <p>Surprise yourself with our grand delicacies!</p>
         <label for="username">Username:</label>
-  			<input type="text" name="username" id="username" value="Ana">
+  	<input type="text" name="username" id="username" value="Ana" minlength="3" maxlength="30" pattern="[a-zA-Z0-9]+" required>
         <br>
         <label for="user-pw">Password:</label>
-        <input type="password" name="user-pw" id="user-pw">
+        <input type="password" name="user-pw" id="user-pw" minlength="8" maxlength="15" required>
       </form>
     </section>
   </body>
