@@ -7,3 +7,5 @@ I'll be using this every time I feel the need to study or review HTML in my life
 
 
 ...if I remember to upload here the code as well...
+
+Extra plataforms used for this study: CodeAcademy
